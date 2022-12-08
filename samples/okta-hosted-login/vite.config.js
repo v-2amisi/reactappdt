@@ -43,10 +43,10 @@ export default defineConfig(( { command } ) => {
       }
     },
     server: {
-      port: process.env.PORT || 8080
+      port: process.env.PORT || 443
     },
     preview: {
-      port: process.env.PORT || 8080
+      port: process.env.PORT || 443
     },
     build: {
       rollupOptions: {
